@@ -15,6 +15,14 @@ public class HomePage extends BasePage {
 	
 	@FindBy(xpath="//a[@class='ico-login']")
 	 WebElement lnkLogin;
+	@FindBy(xpath="//input[@id='small-searchterms']")
+	 WebElement lnkSearch;
+	@FindBy(xpath="//input[@id='small-searchterms']")
+	 WebElement lnkSearchitem;
+	@FindBy(xpath="//form[@action='/search']")
+	WebElement lnkSearchList;
+	@FindBy(xpath="//span[text()=\"Flower Girl Bracelet\"]")
+	WebElement lnkproduct;
 	
 	
 	public void clickRegister()
@@ -25,4 +33,27 @@ public class HomePage extends BasePage {
 	{
 		lnkLogin.click();
 	}
+	public void clickSearch()
+	{
+		lnkSearch.click();
+	}
+	
+	public void setItem(String item)
+	{
+		lnkSearchitem.sendKeys(item);
+		
+	}
+	public void setSearchlist(String item)
+	{
+	lnkSearchList.sendKeys(item);
+	}
+	
+	public void clickproduct()
+	{
+        lnkproduct.click();
+	}
+	
+	
+	
+	
 }

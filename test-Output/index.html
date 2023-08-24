@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>F:\MURALI\murali_programs\padmaNopCommerce\datadriven.xml</span>
+                    <span>F:\MURALI\murali_programs\padmaNopCommerce\search.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 2 failed,   3 passed</span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -104,39 +104,10 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC_03DataDrivenTest" class="method navigator-link" hash-for-method="DDtlogin(abc123@gmail.com, test@123, Valid)">DDtlogin(abc123@gmail.com, test@123, Valid)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC_03DataDrivenTest" class="method navigator-link" hash-for-method="DDtlogin(pavanoltraining@gmail.com, test@123, Invalid)">DDtlogin(pavanoltraining@gmail.com, test@123, Invalid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_05AdvSearch" class="method navigator-link" hash-for-method="searchproduct">searchproduct</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
-                  </li>
-                  <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
-                    </span>
-                    <div class="method-list-content passed suite-Suite">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC_03DataDrivenTest" class="method navigator-link" hash-for-method="DDtlogin(laks@yahoo.com, xyz, Invalid)">DDtlogin(laks@yahoo.com, xyz, Invalid)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC_03DataDrivenTest" class="method navigator-link" hash-for-method="DDtlogin(lakshmi@yahoo.com, Laxmi, Invalid)">DDtlogin(lakshmi@yahoo.com, Laxmi, Invalid)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC_03DataDrivenTest" class="method navigator-link" hash-for-method="DDtlogin(laksh@yahoo.com, Lakshmi, Invalid)">DDtlogin(laksh@yahoo.com, Lakshmi, Invalid)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -151,73 +122,28 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">testCases.TC_03DataDrivenTest</span>
+              <span class="class-name">testCases.TC_05AdvSearch</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="DDtlogin(abc123@gmail.com, test@123, Valid)">
-                  </a> <!-- DDtlogin(abc123@gmail.com, test@123, Valid) -->
-                  <span class="method-name">DDtlogin</span>
-                  <span class="parameters">(abc123@gmail.com, test@123, Valid)</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at testCases.TC_03DataDrivenTest.DDtlogin(TC_03DataDrivenTest.java:35)
+                  <a name="searchproduct">
+                  </a> <!-- searchproduct -->
+                  <span class="method-name">searchproduct</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because the return value of &quot;org.openqa.selenium.WebElement.getAttribute(String)&quot; is null
+	at pageObject.SearchPage.isproductexists(SearchPage.java:31)
+	at testCases.TC_05AdvSearch.searchproduct(TC_05AdvSearch.java:16)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="DDtlogin(pavanoltraining@gmail.com, test@123, Invalid)">
-                  </a> <!-- DDtlogin(pavanoltraining@gmail.com, test@123, Invalid) -->
-                  <span class="method-name">DDtlogin</span>
-                  <span class="parameters">(pavanoltraining@gmail.com, test@123, Invalid)</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at testCases.TC_03DataDrivenTest.DDtlogin(TC_03DataDrivenTest.java:43)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames
+... Removed 27 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.TC_03DataDrivenTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="DDtlogin(laks@yahoo.com, xyz, Invalid)">
-                  </a> <!-- DDtlogin(laks@yahoo.com, xyz, Invalid) -->
-                  <span class="method-name">DDtlogin</span>
-                  <span class="parameters">(laks@yahoo.com, xyz, Invalid)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="DDtlogin(lakshmi@yahoo.com, Laxmi, Invalid)">
-                  </a> <!-- DDtlogin(lakshmi@yahoo.com, Laxmi, Invalid) -->
-                  <span class="method-name">DDtlogin</span>
-                  <span class="parameters">(lakshmi@yahoo.com, Laxmi, Invalid)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="DDtlogin(laksh@yahoo.com, Lakshmi, Invalid)">
-                  </a> <!-- DDtlogin(laksh@yahoo.com, Lakshmi, Invalid) -->
-                  <span class="method-name">DDtlogin</span>
-                  <span class="parameters">(laksh@yahoo.com, Lakshmi, Invalid)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">F:\MURALI\murali_programs\padmaNopCommerce\datadriven.xml</span>
+            <span class="header-content">F:\MURALI\murali_programs\padmaNopCommerce\search.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -230,7 +156,7 @@
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testCases.TC_03DataDrivenTest&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_05AdvSearch&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -270,32 +196,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'DDtlogin')
-data.setCell(0, 2, 'testCases.TC_03DataDrivenTest')
-data.setCell(0, 3, 7500);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'DDtlogin')
-data.setCell(1, 2, 'testCases.TC_03DataDrivenTest')
-data.setCell(1, 3, 7339);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'DDtlogin')
-data.setCell(2, 2, 'testCases.TC_03DataDrivenTest')
-data.setCell(2, 3, 6964);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'DDtlogin')
-data.setCell(3, 2, 'testCases.TC_03DataDrivenTest')
-data.setCell(3, 3, 6612);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'DDtlogin')
-data.setCell(4, 2, 'testCases.TC_03DataDrivenTest')
-data.setCell(4, 3, 5866);
+data.setCell(0, 1, 'searchproduct')
+data.setCell(0, 2, 'testCases.TC_05AdvSearch')
+data.setCell(0, 3, 1864);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 34 seconds</span>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -321,7 +231,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC_03DataDrivenTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.TC_05AdvSearch</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
                 <span class="method-start">0 ms</span>
@@ -329,30 +239,12 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">DDtlogin(pavanoltraining@gmail.com, test@123, Invalid)</span>
-                <span class="method-start">11881 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">DDtlogin(lakshmi@yahoo.com, Laxmi, Invalid)</span>
-                <span class="method-start">18920 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">DDtlogin(laksh@yahoo.com, Lakshmi, Invalid)</span>
-                <span class="method-start">25887 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">DDtlogin(laks@yahoo.com, xyz, Invalid)</span>
-                <span class="method-start">32502 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">DDtlogin(abc123@gmail.com, test@123, Valid)</span>
-                <span class="method-start">40005 ms</span>
+                <span class="method-name">searchproduct</span>
+                <span class="method-start">7875 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">47689 ms</span>
+                <span class="method-start">10184 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

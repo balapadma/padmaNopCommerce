@@ -151,3 +151,39 @@
 10:41:31.219 [main] INFO  testCases.TC_01RegisterTest - **year started***
 10:41:34.699 [main] INFO  testCases.TC_01RegisterTest - **clicked on register**
 10:41:36.052 [main] INFO  testCases.TC_01RegisterTest - **registration completed**
+19:30:45.589 [main] INFO  testCases.TC_01RegisterTest - **test started and click register**
+19:30:45.735 [main] INFO  testCases.TC_01RegisterTest - **test started and click register**
+19:30:47.783 [main] INFO  testCases.TC_01RegisterTest - **register page started**
+19:30:47.811 [main] INFO  testCases.TC_01RegisterTest - **register page started**
+19:30:48.479 [main] INFO  testCases.TC_01RegisterTest - ***month started***
+19:30:48.484 [main] INFO  testCases.TC_01RegisterTest - ***month started***
+19:30:48.563 [main] INFO  testCases.TC_01RegisterTest - **year started***
+19:30:48.565 [main] INFO  testCases.TC_01RegisterTest - **year started***
+19:30:52.534 [main] INFO  testCases.TC_01RegisterTest - **clicked on register**
+19:30:52.550 [main] INFO  testCases.TC_01RegisterTest - **clicked on register**
+19:30:53.587 [main] INFO  testCases.TC_01RegisterTest - **registration completed**
+19:30:54.466 [main] INFO  testCases.TC_01RegisterTest - **registration completed**
+22:08:40.830 [main] INFO  testCases.TC_01RegisterTest - **test started and click register**
+22:08:42.744 [main] INFO  testCases.TC_01RegisterTest - **register page started**
+22:08:43.387 [main] INFO  testCases.TC_01RegisterTest - ***month started***
+22:08:43.466 [main] INFO  testCases.TC_01RegisterTest - **year started***
+22:08:47.100 [main] INFO  testCases.TC_01RegisterTest - **clicked on register**
+22:08:48.386 [main] INFO  testCases.TC_01RegisterTest - **registration completed**
+22:22:51.259 [main] INFO  testCases.TC_01RegisterTest - **test started and click register**
+22:22:53.078 [main] INFO  testCases.TC_01RegisterTest - **register page started**
+22:22:53.564 [main] INFO  testCases.TC_01RegisterTest - ***month started***
+22:22:53.624 [main] INFO  testCases.TC_01RegisterTest - **year started***
+22:22:57.263 [main] INFO  testCases.TC_01RegisterTest - **clicked on register**
+22:22:58.430 [main] INFO  testCases.TC_01RegisterTest - **registration completed**
+22:28:46.565 [main] INFO  testCases.TC_01RegisterTest - **test started and click register**
+22:28:48.213 [main] INFO  testCases.TC_01RegisterTest - **register page started**
+22:28:48.740 [main] INFO  testCases.TC_01RegisterTest - ***month started***
+22:28:48.799 [main] INFO  testCases.TC_01RegisterTest - **year started***
+22:28:52.317 [main] INFO  testCases.TC_01RegisterTest - **clicked on register**
+22:28:53.292 [main] INFO  testCases.TC_01RegisterTest - **registration completed**
+22:33:04.481 [main] INFO  testCases.TC_01RegisterTest - **test started and click register**
+22:33:06.111 [main] INFO  testCases.TC_01RegisterTest - **register page started**
+22:33:06.611 [main] INFO  testCases.TC_01RegisterTest - ***month started***
+22:33:06.668 [main] INFO  testCases.TC_01RegisterTest - **year started***
+22:33:10.399 [main] INFO  testCases.TC_01RegisterTest - **clicked on register**
+22:33:12.241 [main] INFO  testCases.TC_01RegisterTest - **registration completed**

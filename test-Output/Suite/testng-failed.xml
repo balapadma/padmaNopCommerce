@@ -7,13 +7,13 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testCases.TC_03DataDrivenTest">
+      <class name="testCases.TC_05AdvSearch">
         <methods>
           <include name="teardown"/>
-          <include name="DDtlogin" invocation-numbers="0 4"/>
+          <include name="searchproduct"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC_03DataDrivenTest -->
+      </class> <!-- testCases.TC_05AdvSearch -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
